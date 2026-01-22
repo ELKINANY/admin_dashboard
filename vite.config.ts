@@ -6,7 +6,7 @@
   // https://vite.dev/config/
   export default defineConfig({
     plugins: [react(), tailwindcss()],
-    base: "/",
+    base: "/admin_dashboard/",
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "src"),
